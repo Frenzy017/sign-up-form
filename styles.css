@@ -1,0 +1,172 @@
+body {
+    background: linear-gradient(to right, darkgray, antiquewhite);
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    max-width: 100vh;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    opacity: 75%;
+    color: white;
+    position: absolute;
+    top: 10px;
+    height: 100px;
+    width: 655px;
+    margin-left: -5px;
+    gap: 10px;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 60px;
+}
+
+h1 {
+    display: flex;
+    padding-bottom: 10px;
+    align-self: start;
+    text-align: start;
+    width: 650px;
+    margin: 12px 12px 12px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+span {
+    display: flex;
+    padding: 0 5px;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+input[type=text] {
+    border-radius: 5px;
+    border-color: saddlebrown;
+}
+
+
+.container {
+    display: flex;
+}
+
+.image {
+    position: relative;
+    width: 100%;
+}
+
+.credit {
+    flex-direction: row;
+    position: relative;
+    top: 460px;
+    right: 500px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 2px;
+}
+
+.credit > footer {
+    width: 400px;
+}
+
+.background-image > img {
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 650px;
+}
+
+.background-image {
+    display: flex;
+    align-items: center;
+    max-width: 650px;
+}
+
+.sign-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 5%;
+}
+
+.inputs > h1 {
+    margin-left: inherit;
+    width: inherit;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+.input-fields > div > label {
+    display: block;
+    gap: 20px;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+
+.input-fields {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 450px;
+    margin-bottom: 30px;
+    margin-left: -25px;
+    gap: 10px;
+}
+
+.carousel > button {
+    height: 45px;
+    width: 150px;
+    border-radius: 50px;
+    background-color: black;
+    opacity: 70%;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+    margin-left: inherit;
+}
+
+
+.carousel > label {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.carousel > label > a:link {
+    text-decoration: none;
+
+}
+
+.carousel > label > a:visited {
+    color: saddlebrown;
+}
+
+.carousel > label > a:hover {
+    color: black;
+}
+
+.carousel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
