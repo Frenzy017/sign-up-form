@@ -118,6 +118,7 @@ input[type=text] {
 }
 
 .carousel > button {
+    cursor: pointer;
     height: 45px;
     width: 150px;
     border-radius: 50px;
